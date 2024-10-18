@@ -44,9 +44,9 @@ public class AACCategory implements AACPage {
 	  this.size = 0;
   } // AACCategory(String)
 
-  // +------------------+--------------------------------------------
-  // | Standard Methods |
-  // +------------------+
+  // +---------+-----------------------------------------------------
+  // | Methods |
+  // +---------+
 
   /**
    * Adds the image location, text pairing to the category

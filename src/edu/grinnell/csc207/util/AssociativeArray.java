@@ -191,12 +191,17 @@ public class AssociativeArray<K, V> {
   /**
    * Determine how many key/value pairs are in the associative array.
    *
-   * @return size of the associative array (filled by key/value pairs)
+   * @return size of the associative array (filled by key/value pairs).
    */
   public int size() {
     return this.size;
   } // size()
 
+  /**
+   * Get an array of Keys from the Associative Array (String type only).
+   *
+   * @return the array of keys.
+   */
   public String[] getKeys() {
     String[] keys = new String[this.size];
     for (int i = 0; i < this.size; i++) {
